@@ -1,0 +1,27 @@
+body{
+            background-color:aliceblue;
+            font-Family: arial, helvetica, sans-serif;
+
+            background-image: linear-gradient(to right, #0664A4, #12A1E7, #05B1BF, #8EDEF7, #ECFAFD );
+        }
+
+        div{
+            background-color: aliceblue;
+            width: 80%;
+            margin:auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px; color: #000;
+
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        h1{
+            text-align: center;
+            color: #0d0ab8;
+        }
+        p{
+            color: red;
+        }
