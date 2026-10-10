@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade id e classe e div</title>
+    <style>
+        .bloco-conteudo {
+            color: rgb(38, 0, 255);
+            background-color: #e0f7fa;
+            border: 2px solid #02463e;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 8px;
+        }
+        .bloco-links {
+            background-color: #f1f8e9;
+            border: 2px solid #558b2f;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #9802bd;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+            transition: color 1;
+        }
+
+
+        a:hover {
+            color: #d32f2f; 
+        }
+
+
+        a:active {
+            color: #00ff4c; 
+        }
+        
+        a::before {
+            content: "* ";
+            color: #e91e63;
+        }
+
+        a::after {
+            content: " *";
+            color: #1ea9e9;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="bloco-conteudo">
+        <h2>Atividade id e class e Div</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim modi praesentium. Obcaecati exercitationem accusamus sequi ea aperiam rem. Excepturi porro ipsa, corporis expedita sint rem nulla molestiae mollitia quas.</p>
+    </div>
+
+    <div class="bloco-links">
+        <h2>Plataformas de Música e Vídeo</h2>
+        
+        <a href="https://www.spotify.com" target="_blank">Spotify ♫</a>
+        
+        <a href="https://www.youtube.com" target="_blank">YouTube ♫</a>
+        
+        <a href="https://music.amazon.com" target="_blank">Amazon Music ♫</a>
+    </div>
+
+</body>
+</html>
