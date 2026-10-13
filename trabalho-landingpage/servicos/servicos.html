@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços e Contato</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="../IMG/WhatsApp Image 2026-10-12 at 18.46.26 (1).jpeg" alt="esse sou eu", width="100px">
+
+        <h1>Serviços e Contato</h1>
+
+        <p>Criação de sites para pessoas e empresas</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="../curriculo/curriculo.html">Currículo</a>
+        <a href="../GitHub/github.html">GitHub</a>
+        <a href="../servicos/servicos.html">Serviços e Contato</a>
+    </nav>
+
+    <main>
+        <h2>Serviços oferecidos</h2>
+
+        <p>Criação de páginas para apresentar pessoas, projetos,
+        pequenos negócios e empresas na internet.</p>
+
+        <ul>
+            <li>Sites pessoais e portfólios</li>
+            <li>Sites para pequenos negócios</li>
+            <li>Páginas para divulgação de serviços</li>
+            <li>Projetos com recursos mais avançados</li>
+        </ul>
+
+        <h2>Tabela de preços</h2>
+
+
+        <table>
+            <tr>
+                <th>Tipo de site</th>
+                <th>Descrição</th>
+                <th>Preço estimado</th>
+            </tr>
+
+            <tr>
+                <td>Site de 1 a 2 páginas</td>
+                <td>Site simples de apresentação</td>
+                <td>R$ 200 a R$ 400</td>
+            </tr>
+
+            <tr>
+                <td>Site de 3 a 5 páginas</td>
+                <td>Site com mais informações e seções</td>
+                <td>R$ 400 a R$ 800</td>
+            </tr>
+
+            <tr>
+                <td>Site com mais de 5 páginas</td>
+                <td>Projeto com várias páginas</td>
+                <td>A partir de R$ 800</td>
+            </tr>
+
+            <tr>
+                <td>Site dinâmico</td>
+                <td>Site com recursos interativos e dados</td>
+                <td>A partir de R$ 1.200</td>
+            </tr>
+
+            <tr>
+                <td>Projeto avançado</td>
+                <td>Sistema personalizado com recursos específicos</td>
+                <td>Orçamento personalizado</td>
+            </tr>
+        </table>
+
+        <h2 id="contato">Solicitar um orçamento</h2>
+
+        <p>Preencha o formulário abaixo para apresentar sua necessidade.</p>
+
+        <form action="#" method="post">
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone"
+            placeholder="(27) 99999-9999" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Você é:</p>
+
+            <label for="pessoa">Pessoa física</label>
+
+            <input type="radio" id="pessoa" name="tipo_cliente"
+            value="Pessoa física" required>
+
+            <label for="empresa">Empresa</label>
+
+            <input type="radio" id="empresa" name="tipo_cliente"
+            value="Empresa">
+
+
+            <label for="horario">Melhor horário para contato:</label>
+            <select id="horario" name="horario" required>
+                <option value="">Selecione</option>
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+
+            <label for="servico">Serviço desejado:</label>
+            <select id="servico" name="servico" required>
+                <option value="">Selecione um serviço</option>
+                <option value="Site simples">Site simples</option>
+                <option value="Site com várias páginas">
+                    Site com várias páginas
+                </option>
+                <option value="Site dinâmico">Site dinâmico</option>
+                <option value="Projeto avançado">Projeto avançado</option>
+            </select>
+
+            <label for="descricao">Descreva o que você precisa:</label>
+            <textarea id="descricao" name="descricao"
+            rows="5" required></textarea>
+
+            <button type="submit">Enviar solicitação</button>
+
+        </form>
+
+        <p><a href="#contato">Ir para o formulário</a></p>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </main>
+
+    <footer>
+        <p>Meu Portfólio - 2026</p>
+    </footer>
+
+</body>
+</html>

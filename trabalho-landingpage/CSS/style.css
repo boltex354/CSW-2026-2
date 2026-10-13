@@ -1,0 +1,148 @@
+
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #183153;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    justify-content: space-betwee;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #24466f;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a9d6ff;
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: white;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Títulos */
+h2 {
+    color: #183153;
+    border-bottom: 2px solid #d6e4f0;
+    padding-bottom: 5px;
+}
+
+/* Imagens */
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Links */
+a {
+    color: #1756a9;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dce9f7;
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #183153;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #315d8e;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #183153;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
