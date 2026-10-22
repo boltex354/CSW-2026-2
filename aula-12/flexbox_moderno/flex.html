@@ -7,127 +7,140 @@
 
     <style>
 
-    body {
-        text-align: center;
-    }
+        body {
+            text-align: center;
+        }
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: rgb(0, 1, 53);
-        justify-content: flex-start;
-        gap: 16px;
-        padding: 20px;
-        border-radius: 20px;
-        height: 5vh;
-    }
-    .container-5 {
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: rgb(0, 1, 53);
+            justify-content: flex-start;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 5vh;
+        }
+        .container-5 {
 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color:  rgb(0, 1, 53);
-        justify-content: flex-end;
-        gap: 16px;
-        padding: 20px;
-        border-radius: 20px;
-        height: 5vh;
-    }
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color:  rgb(0, 1, 53);
+            justify-content: flex-end;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 5vh;
+        }
 
-    .container-6{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: rgb(0, 1, 53);
-        justify-content: center;
-        gap: 16px;
-        padding: 20px;
-        border-radius: 20px;
-        height: 5vh;
-    }
-        .container-7{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: rgb(0, 1, 53);
-        justify-content: space-between;
-        gap: 16px;
-        padding: 20px;
-        border-radius: 20px;
-        height: 5vh;
-    }
+        .container-6{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: rgb(0, 1, 53);
+            justify-content: center;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 5vh;
+        }
+            .container-7{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: rgb(0, 1, 53);
+            justify-content: space-between;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 5vh;
+        }
 
-    .container-8 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color:  rgb(0, 1, 53);
-        justify-content: space-around;
-        gap: 16px;
-        padding: 20px;
-        border-radius: 20px;
-        height: 5vh;
-    }
+        .container-8 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color:  rgb(0, 1, 53);
+            justify-content: space-around;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 20px;
+            height: 5vh;
+        }
 
-    .itemm {
-        background-color: orangered;
-        border-radius: 4px;
-        flex: 0 0 70px;
-    }
-    .container-9 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        background-color: rgb(0, 1, 53);
-        align-items: flex-start;
-        gap: 16px;
-        padding: 100px;
-        border-radius: 20px;
+        .itemm {
+            background-color: orangered;
+            border-radius: 4px;
+            flex: 0 0 70px;
+        }
+        .container-9 {
+            display: flex;
+            flex-direction: row;
+            background-color: #0b1a30; /* Fundo azul escuro */
+            border-radius: 10px;
+            padding: 20px;
+            height: 350px; /* Altura fixa para permitir o alinhamento vertical */
+            gap: 10px;
+        }
 
-    }
+        .coluna-align {
+            display: flex;
+            flex-direction: row;
+            flex: 1; /* Distribui o espaço igualmente entre as 4 colunas */
+            gap: 10px;
+            justify-content: center;
+            border-right: 1px solid #1e3a5f; /* Linhas divisórias subtis */
+            padding: 0 10px;
+        }
 
-    .item-rebelde-1 {
-        background-color: orangered;
-        border-radius: 10px;
-        flex: 0 0 70px;
-        height: 15vh;
-        
-    }
+        .item-rebelde-1 {
+            background-color: orangered;
+            border-radius: 10px;
 
-    .item-rebelde-2 {
-        background-color: orangered;
-        border-radius: 10px;
-        flex: 0 0 70px;
-        height:23vh;
-    }
-    .item-rebelde-3 {
-        background-color: orangered;
-        border-radius: 10px;
-        flex: 0 0 70px;
-        height:10vh;
-    }
-    .item-rebelde-4 {
-        background-color: orangered;
-        border-radius: 10px;
-        flex: 0 0 70px;
-        height: 15vh;
-        align-self: center;
-        margin-top: 100px;
-   
-    }
-    p {
-        color: white;
-        text-align: center;
-        margin: 0 0 10px 0;
-    }
+            height: 70px;
+            width: 50px;
+            
+        }
+        .coluna-align:last-child {
+            border-right: none;
+        }
+
+        .item-rebelde-2 {
+            background-color: orangered;
+            border-radius: 10px;
+
+            height:130px;
+            width: 50px;
+        }
+        .item-rebelde-3 {
+            background-color: orangered;
+            border-radius: 10px;
+            height:220px;
+            width: 50px;
+        }
+        .item-rebelde-4 {
+            background-color: orangered;
+            border-radius: 10px;
+            width: 50px;
+            height: 350px;
+        }
+
+        .align-start { align-items: flex-start; }
+        .align-center { align-items: center; }
+        .align-end { align-items: flex-end; }
+        .align-stretch { align-items: stretch; }
 
     </style>
+
 </head>
 <body>
 
     <h1>Pagina-5</h1>
+
     <br>
+
     <h2>Flex-Star</h2>
 
     <div class="container">
@@ -138,6 +151,7 @@
     </div>
 
     <br>
+
     <h2>Flex-End</h2>
 
     <div class="container-5">
@@ -147,57 +161,71 @@
     </div>
 
     <br>
+
     <h2>Center</h2>
 
-        <div class="container-6">
+    <div class="container-6">
         <div class="itemm">   </div>
         <div class="itemm">   </div>
         <div class="itemm">   </div>
     </div>
 
     <br>
+
     <h2>space-between</h2>
 
     <div class="container-7">
-    <div class="itemm">   </div>
-    <div class="itemm">   </div>
-    <div class="itemm">   </div>
+        <div class="itemm">   </div>
+        <div class="itemm">   </div>
+        <div class="itemm">   </div>
     </div>
 
     <br>
+
     <h2>space-around</h2>
 
     <div class="container-8">
-    <div class="itemm">   </div>
-    <div class="itemm">   </div>
-    <div class="itemm">   </div>
+        <div class="itemm">   </div>
+        <div class="itemm">   </div>
+        <div class="itemm">   </div>
     </div>
 
     <br>
     <br>
 
-    <h1>Pagina 6 </h1>
+    <h1>Página 6 - align-items</h1>
 
-        <br>
-    <h2>space-around</h2>
+    <div class="container-9 align-start">
+        <div class="coluna-align align-start">
+            <div class="item-rebelde-1">   </div>
+            <div class="item-rebelde-3">   </div>
+            <div class="item-rebelde-2">   </div>
+        </div>
+   
 
-    <div class="container-9">
-        <p>flex-start</p>
-        <div class="item-rebelde-1">   </div>
-        <div class="item-rebelde-2">   </div>
-        <div class="item-rebelde-3">   </div>
-        <div class="item-rebelde-4">   </div>
+        <div class="coluna-align align-center">
+            <div class="item-rebelde-1"></div>
+            <div class="item-rebelde-3"></div>
+            <div class="item-rebelde-2"></div>
+        </div>
+
+        <div class="coluna-align align-stretch">
+            <div class="item-rebelde-4"></div>
+            <div class="item-rebelde-4"></div>
+            <div class="item-rebelde-4"></div>
+        </div>
+
+        <div class="coluna-align align-cend">
+            <div class="item-rebelde-1"></div>
+            <div class="item-rebelde-3"></div>
+            <div class="item-rebelde-2"></div>
+        </div>
+    
     </div>
 
-
-
-
-
-
-
-
     <br>
     <br>
+
     <button>
         <a href="../index.html">Voltar</a>
     </button>
