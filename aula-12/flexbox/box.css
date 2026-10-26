@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    background-color: lightblue;
+}
+
+.container2 {
+    display: flex;
+    gap: 10px;
+}
+
+.item2 {
+    flex-grow: 1;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.item-a {
+    background-color: tomato;
+}
+
+.item-b {
+    background-color: royalblue;
+}
+
+.item-c {
+    background-color: seagreen;
+}
+
+.item2:hover {
+    text-decoration: underline;
+}
+
+.container3 {
+    display: flex;
+    gap: 8px;
+}
+
+.item3 {
+    flex-grow: 1;
+    background-color: steelblue;
+    color: white;
+    padding: 25px 5px;
+    text-align: center;
+}
+
+.terceiro {
+    flex-grow: 2;
+    background-color: orange;
+    color: black;
+}
+
+.terceiro.selecionado {
+    background-color: crimson;
+    color: white;
+}
+
+.container4 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.item4 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+button {
+
+    width: 300px;
+    height: 50px;
+}

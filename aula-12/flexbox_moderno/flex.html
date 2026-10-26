@@ -1,140 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina 5</title>
 
-    <style>
-
-        body {
-            text-align: center;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color: rgb(0, 1, 53);
-            justify-content: flex-start;
-            gap: 16px;
-            padding: 20px;
-            border-radius: 20px;
-            height: 5vh;
-        }
-        .container-5 {
-
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color:  rgb(0, 1, 53);
-            justify-content: flex-end;
-            gap: 16px;
-            padding: 20px;
-            border-radius: 20px;
-            height: 5vh;
-        }
-
-        .container-6{
-            display:flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color: rgb(0, 1, 53);
-            justify-content: center;
-            gap: 16px;
-            padding: 20px;
-            border-radius: 20px;
-            height: 5vh;
-        }
-            .container-7{
-            display:flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color: rgb(0, 1, 53);
-            justify-content: space-between;
-            gap: 16px;
-            padding: 20px;
-            border-radius: 20px;
-            height: 5vh;
-        }
-
-        .container-8 {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            background-color:  rgb(0, 1, 53);
-            justify-content: space-around;
-            gap: 16px;
-            padding: 20px;
-            border-radius: 20px;
-            height: 5vh;
-        }
-
-        .itemm {
-            background-color: orangered;
-            border-radius: 4px;
-            flex: 0 0 70px;
-        }
-        .container-9 {
-            display: flex;
-            flex-direction: row;
-            background-color: #0b1a30; /* Fundo azul escuro */
-            border-radius: 10px;
-            padding: 20px;
-            height: 350px; /* Altura fixa para permitir o alinhamento vertical */
-            gap: 10px;
-        }
-
-        .coluna-align {
-            display: flex;
-            flex-direction: row;
-            flex: 1; /* Distribui o espaço igualmente entre as 4 colunas */
-            gap: 10px;
-            justify-content: center;
-            border-right: 1px solid #1e3a5f; /* Linhas divisórias subtis */
-            padding: 0 10px;
-        }
-
-        .item-rebelde-1 {
-            background-color: orangered;
-            border-radius: 10px;
-
-            height: 70px;
-            width: 50px;
-            
-        }
-        .coluna-align:last-child {
-            border-right: none;
-        }
-
-        .item-rebelde-2 {
-            background-color: orangered;
-            border-radius: 10px;
-
-            height:130px;
-            width: 50px;
-        }
-        .item-rebelde-3 {
-            background-color: orangered;
-            border-radius: 10px;
-            height:220px;
-            width: 50px;
-        }
-        .item-rebelde-4 {
-            background-color: orangered;
-            border-radius: 10px;
-            width: 50px;
-            height: 350px;
-        }
-
-        .align-start { align-items: flex-start; }
-        .align-center { align-items: center; }
-        .align-end { align-items: flex-end; }
-        .align-stretch { align-items: stretch; }
-
-    </style>
+    <link rel="stylesheet" href="./flex.css">
 
 </head>
+
 <body>
 
     <h1>Pagina-5</h1>
@@ -143,51 +18,60 @@
 
     <h2>Flex-Star</h2>
 
-    <div class="container">
-        <div class="itemm">   </div>
-        <div class="itemm">     </div>
-        <div class="itemm">   </div>
+    <div class="container-base container-5">
         
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+
     </div>
 
     <br>
 
     <h2>Flex-End</h2>
 
-    <div class="container-5">
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
+    <div class="container-base container-6">
+
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+
     </div>
 
     <br>
 
     <h2>Center</h2>
 
-    <div class="container-6">
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
+    <div class="container-base container-7">
+
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+
     </div>
 
     <br>
 
     <h2>space-between</h2>
 
-    <div class="container-7">
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
+    <div class="container-base container-8">
+
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+
     </div>
 
     <br>
 
     <h2>space-around</h2>
 
-    <div class="container-8">
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
-        <div class="itemm">   </div>
+    <div class="container-base container-8">
+
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+        <div class="itemm"> </div>
+
     </div>
 
     <br>
@@ -195,35 +79,152 @@
 
     <h1>Página 6 - align-items</h1>
 
-    <div class="container-9 align-start">
-        
+    <div class="container-10 align-start">
+
         <div class="coluna-align align-start">
-            <div class="item-rebelde-1">   </div>
-            <div class="item-rebelde-3">   </div>
-            <div class="item-rebelde-2">   </div>
+            
+            <div class="itens item-rebelde-1"> </div>
+            <div class="itens item-rebelde-3"> </div>
+            <div class="itens item-rebelde-2"> </div>
+            
         </div>
-   
+
 
         <div class="coluna-align align-center">
-            <div class="item-rebelde-1"></div>
-            <div class="item-rebelde-3"></div>
-            <div class="item-rebelde-2"></div>
+
+            <div class="itens item-rebelde-1"></div>
+            <div class="itens item-rebelde-3"></div>
+            <div class="itens item-rebelde-2"></div>
+
         </div>
 
         <div class="coluna-align align-stretch">
-            <div class="item-rebelde-4"></div>
-            <div class="item-rebelde-4"></div>
-            <div class="item-rebelde-4"></div>
+
+            <div class="itens item-rebelde-4"></div>
+            <div class="itens item-rebelde-4"></div>
+            <div class="itens item-rebelde-4"></div>
+
         </div>
 
-        <div class="coluna-align align-cend">
-            <div class="item-rebelde-1"></div>
-            <div class="item-rebelde-3"></div>
-            <div class="item-rebelde-2"></div>
+        <div class="coluna-align align-end">
+
+            <div class="itens item-rebelde-1"></div>
+            <div class="itens item-rebelde-3"></div>
+            <div class="itens item-rebelde-2"></div>
+            
         </div>
-    
+
     </div>
 
+    <br>
+    <br>
+
+
+
+    <div class="tabelas">
+
+        <div>
+
+            <h2>align-content: flex-start</h2>
+
+            <div class="container-11 linhas-start">
+
+                <div class="iteem">1</div>
+                <div class="iteem">2</div>
+                <div class="iteem">3</div>
+                <div class="iteem">4</div>
+                <div class="iteem">5</div>
+                <div class="iteem">6</div>
+                <div class="iteem largo">7</div>
+                <div class="iteem">8</div>
+                <div class="iteem">9</div>
+                <div class="iteem">10</div>
+                <div class="iteem">11</div>
+                <div class="iteem">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem largo">15</div>
+                <div class="iteem">16</div>
+                <div class="iteem">17</div>
+                <div class="iteem">18</div>
+                <div class="iteem">19</div>
+                <div class="iteem largo">20</div>
+                <div class="iteem">1</div>
+                <div class="iteem">2</div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <h2>align-content: flex-between</h2>
+
+            <div class="container-11 linhas-between">
+
+                <div class="iteem">1</div>
+                <div class="iteem largo">2</div>
+                <div class="iteem">3</div>
+                <div class="iteem">4</div>
+                <div class="iteem">5</div>
+                <div class="iteem largo">6</div>
+                <div class="iteem">7</div>
+                <div class="iteem">8</div>
+                <div class="iteem">9</div>
+                <div class="iteem">10</div>
+                <div class="iteem largo">11</div>
+                <div class="iteem">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem largo">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem">15</div>
+                <div class="iteem">1</div>
+                <div class="iteem largo">2</div>
+                <div class="iteem">3</div>
+                <div class="iteem">4</div>
+                <div class="iteem">5</div>
+                <div class="iteem largo">6</div>
+                <div class="iteem">7</div>
+                <div class="iteem">8</div>
+                <div class="iteem">9</div>
+                <div class="iteem">10</div>
+                <div class="iteem largo">11</div>
+                <div class="iteem">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem largo">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem">15</div>
+                <div class="iteem">1</div>
+                <div class="iteem largo">2</div>
+                <div class="iteem">3</div>
+                <div class="iteem">4</div>
+                <div class="iteem">5</div>
+                <div class="iteem largo">6</div>
+                <div class="iteem">7</div>
+                <div class="iteem">8</div>
+                <div class="iteem">9</div>
+                <div class="iteem">10</div>
+                <div class="iteem largo">11</div>
+                <div class="iteem">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem largo">12</div>
+                <div class="iteem">13</div>
+                <div class="iteem">14</div>
+                <div class="iteem">15</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
     <br>
     <br>
 
@@ -231,6 +232,7 @@
         <a href="../index.html">Voltar</a>
     </button>
 
-    
+
 </body>
+
 </html>

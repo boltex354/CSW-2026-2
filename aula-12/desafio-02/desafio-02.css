@@ -1,0 +1,81 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+.layout-admin {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1964af;
+  color: white;
+  padding: 15px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu-topo a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.corpo-admin {
+  display: flex;
+  flex-grow: 1; 
+}
+
+
+.sidebar {
+  width: 200px;
+  background-color: #0d3b69;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column; 
+}
+
+.menu-lateral a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+
+.conteudo-principal {
+  flex-grow: 1; 
+  background-color: #f4f6f7;
+  padding: 30px;
+}
+
+.grid-cards-flex {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px;
+}
+
+.card-admin {
+  flex-grow: 1; 
+  flex-basis: calc(25% - 15px); 
+  min-width: 150px;
+  background-color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f75bb;
+  color: white;
+  text-align: center; 
+  padding: 10px;
+}

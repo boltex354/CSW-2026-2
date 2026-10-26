@@ -1,0 +1,216 @@
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+.tabelas h2 {
+
+    text-align: center;
+
+}
+
+button {
+
+    width: 300px;
+    height: 50px;
+}
+
+.container-base {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(0, 1, 53);
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 5vh;
+
+}
+
+.container-5 {
+
+    justify-content: flex-start;
+
+}
+
+.container-6 {
+
+    justify-content: flex-end;
+
+}
+
+.container-7 {
+
+    justify-content: center;
+
+}
+
+.container-8 {
+
+    justify-content: space-between;
+
+}
+
+
+.container-9 {
+
+    justify-content: space-around;
+
+}
+
+
+.itemm {
+
+    background-color: orangered;
+    border-radius: 4px;
+    flex: 0 0 70px;
+    
+}
+
+.container-10 {
+
+    display: flex;
+    background-color: #0b1a30;
+    border-radius: 10px;
+    padding: 20px;
+    height: 350px;
+    gap: 10px;
+
+}
+
+.coluna-align {
+
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+    border-right: 1px solid #1e3a5f;
+    padding: 0 10px;
+    height: 350px;
+
+}
+
+.itens {
+
+    background-color: orangered;
+    border-radius: 10px;
+    width: 50px;
+
+}
+
+
+
+.item-rebelde-1 {
+
+    height: 70px;
+
+}
+
+.coluna-align:last-child {
+
+    border-right: none;
+    
+}
+
+.item-rebelde-2 {
+
+    height: 130px;
+
+}
+
+.item-rebelde-3 {
+
+    height: 220px;
+
+}
+
+.item-rebelde-4 {
+
+    height: 350px;
+
+}
+
+.align-start {
+
+    align-items: flex-start;
+
+}
+
+.align-center {
+
+    align-items: center;
+
+}
+
+.align-end {
+
+    align-items: flex-end;
+
+}
+
+.align-stretch {
+
+    align-items: stretch;
+
+}
+
+.container-11 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+    width: 510px;
+    height: 510px;
+    margin: 0 auto 30px;
+    padding: 5px;
+    background-color: #0b2b4b;
+    border-radius: 10px;
+
+}
+
+.iteem {
+
+    flex: 0 0 20px;
+    height: 16px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: black;
+    font-size: 10px;
+
+}
+
+.iteem.largo {
+
+    flex-basis: 45px;
+
+}
+
+.linhas-start {
+
+    align-content: flex-start;
+
+}
+
+
+.linhas-between {
+
+    align-content: space-between;
+
+}
+
+.tabelas {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+
+}
