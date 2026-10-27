@@ -1,7 +1,8 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .layout-admin {
@@ -29,7 +30,7 @@ body, html {
 
 .corpo-admin {
   display: flex;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 
@@ -38,7 +39,7 @@ body, html {
   background-color: #0d3b69;
   padding: 20px 0;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .menu-lateral a {
@@ -50,20 +51,20 @@ body, html {
 
 
 .conteudo-principal {
-  flex-grow: 1; 
+  flex-grow: 1;
   background-color: #f4f6f7;
   padding: 30px;
 }
 
 .grid-cards-flex {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 15px;
 }
 
 .card-admin {
-  flex-grow: 1; 
-  flex-basis: calc(25% - 15px); 
+  flex-grow: 1;
+  flex-basis: calc(25% - 15px);
   min-width: 150px;
   background-color: #ecf0f1;
   padding: 20px;
@@ -72,10 +73,10 @@ body, html {
   color: #333;
 }
 
-/* Footer */
 .footer {
   background-color: #2f75bb;
   color: white;
-  text-align: center; 
+  text-align: center;
   padding: 10px;
 }
+

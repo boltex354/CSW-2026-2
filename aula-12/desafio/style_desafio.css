@@ -1,34 +1,39 @@
-/* Container principal dos cartões */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .container-cards {
   display: flex;
-  justify-content: center; /* Centraliza na página */
-  gap: 20px; /* Espaçamento entre os cartões */
-  flex-wrap: wrap; /* Permite que os cartões desçam para a linha seguinte se não houver espaço */
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
   padding: 40px 20px;
-  background-color: #f4f4f4;
+  background-color: white;
   width:100vh;
 }
 
-/* Estilo individual do cartão */
 .card {
   display: flex;
-  flex-direction: column; /* Organiza os elementos internos de cima para baixo */
+  flex-direction: column;
   width: 300px;
-  background: rgba(172, 3, 3, 0.603);
+  background: rgba(66, 11, 11, 0.603);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease; /* Transição suave para o hover */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s; 
 }
 
-/* Desafio Extra: Efeito hover */
 .card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0);
 }
 
-/* Desafio Extra: Botões sempre alinhados na base */
 .card p {
-  flex-grow: 1; /* Ocupa todo o espaço vertical disponível, empurrando o botão para baixo */
+  flex-grow: 1;
 }
 
 .card button {
@@ -41,10 +46,10 @@
   cursor: pointer;
 }
 
-/* Responsividade: um abaixo do outro em ecrãs menores */
 @media (max-width: 768px) {
   .container-cards {
     flex-direction: column;
     align-items: center;
+    background-color: aqua;
   }
 }
