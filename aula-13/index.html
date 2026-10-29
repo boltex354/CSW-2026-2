@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <form action="/enviar-inscricao" method="POST" enctype="multipart/form-data">
+  <fieldset>
+    <legend>Inscrição para Vaga de Estágio</legend>
+
+    <br>
+
+    <div>
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" autocomplete="name" required minlength="3">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="celular">Celular (com DDD):</label>
+      <input type="tel" id="celular" name="celular" autocomplete="tel" required pattern="[0-9]{10,11}" title="Digite apenas números, contendo 10 ou 11 dígitos.">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="area_interesse">Área de Interesse:</label>
+      <select id="area_interesse" name="area_interesse" required>
+        <option value="">Selecione uma área</option>
+        <option value="desenvolvimento">Desenvolvimento Web / Software</option>
+        <option value="redes">Infraestrutura e Redes</option>
+        <option value="seguranca">Segurança da Informação</option>
+        <option value="dados">Ciência de Dados</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="curriculo">Currículo (apenas PDF):</label>
+      <input type="file" id="curriculo" name="curriculo" accept=".pdf,application/pdf" required>
+    </div>
+
+    <br>
+
+    <div>
+      <input type="checkbox" id="lgpd" name="lgpd" required>
+      <label for="lgpd">Estou de acordo com o processamento dos meus dados para fins de recrutamento, conforme a LGPD.</label>
+    </div>
+
+    <br>
+    
+    <div>
+      <button type="submit">Enviar Inscrição</button>
+    </div>
+
+  </fieldset>
+</form>
+    
+</body>
+</html>

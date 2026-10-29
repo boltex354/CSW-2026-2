@@ -1,0 +1,36 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(214, 201, 128, 0.5);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+form {
+    background-color: antiquewhite;
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 8px 24px rgba(0,0,0, 0.90);
+}
+
+fieldset{
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 3px;
+    border: 1px;
+    border-radius: 6px ;
+    font-size: 1rem;
+    transition: border-color 0.3 ease, box-shadow 0.3 ease; 
+}
